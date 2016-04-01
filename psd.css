@@ -1,0 +1,289 @@
+* {
+	font-family: SimHei,STHeiti ,"Microsoft YaHei",Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.first-content {
+    overflow: hidden;
+    height: 521px;
+    min-width: 1024px;
+}
+.first-left {
+	width: 431px;
+	height: 521px;
+	background-color: #e74f4d;
+	float: left;
+}
+.first-left p {
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+	color:#fff;
+}
+.firstP {
+	margin-top: 175px;
+}
+.first-left a {
+	line-height: 41px;
+	text-align: center;
+	width: 168px;
+	border:1px solid #fff;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.first-left div {
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+	width: 32px;
+	border-bottom: 2px solid #fff;
+}
+.first-right {
+	width: 431px;
+	height: 521px;
+	float: right;
+	background:url(images/girl.png);
+}
+#firstMp {
+	margin-top: 175px;
+}
+ .first-rightD {
+	width: 431px;
+	height: 521px;
+	position: relative;
+	z-index: 3;
+	background-color: rgba(40,40,40,0.4)
+}
+.first-right:hover .first-rightD {
+	display: none;
+}
+.first-middle {
+	height: 521px;
+	margin: 0;
+	overflow: hidden;
+}
+.first-middle div {
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+	width: 32px;
+	border-bottom: 2px solid #ababab;
+}
+.first-middle a {
+	line-height: 41px;
+	text-align: center;
+	width: 168px;
+	border:1px solid #e95a58;
+	color: #e95a58;
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.first-middle p {
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+	color:#000;
+}
+#triangle {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-left: 15px solid #fff;
+    float: left;
+    position: absolute;
+    z-index: 5;
+    margin-top: 240px;
+}
+.second-content {
+	margin: 0 auto;
+	width: 1024px;	
+}
+.secondP1 {
+	font-size: 21px;
+	font-family: SimHei;
+	color: #000;
+	text-align: center;
+	margin-top: 119px;
+	margin-bottom:26px;
+}
+.secondP2 {
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #aaa;
+	text-align: center;
+}
+.more {
+	float: right;
+	font-size: 14px;
+	font-family: SimSun;
+}
+.more img {
+	margin-right: 10px;
+}
+.more a {
+    color: #000;
+}
+.second-left {
+	width: 294px;
+	float: left;
+	margin-top: 105px;
+}
+.secondLeftP1 {
+	font-size: 14px;
+	font-family: SimHei;
+	margin-top: 35px;
+}
+.secondLeftP2 {
+	font-size: 12px;
+	font-family: SimSun;
+	color: #aaa;
+	margin-top: 26px;
+	line-height: 20px;
+	width: 294px;
+	overflow: hidden;
+}
+#secondLeftP {
+	margin-top: 16px;
+}
+.second-right {
+	float: right;
+	width:655px;
+	margin-top: 105px;
+	position: relative;
+}
+.input1 {
+	background-color: #edecee;
+	height: 40px;
+	width: 312px;
+	margin-top: 16px;
+	border:0;
+	padding-left: 60px;
+	color: #000;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+#input1 {
+	margin-right: 20px;
+}
+.input2 {
+	background-color: #edecee;
+	height: 40px;
+	width: 312px;
+	margin-top: 16px;
+	border:0;
+	padding-left: 80px;
+	color: #000;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+#input2 {
+	margin-right: 20px;
+}
+.inputValue {
+	position: absolute;
+	display: inline-block;
+	margin-top: 16px;
+	margin-left: 18px;
+	color: #000;
+	line-height: 40px;
+	font-size: 12px;
+}
+.TextArea {
+    background-color: #edecee;
+    width: 655px;
+    height: 121px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border:none;
+    resize: none;
+    box-sizing: border-box;
+    padding-left: 142px;
+    padding-top: 12px;
+}
+.secondButton {
+	width: 655px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border:none;
+	font-size: 14px;
+	font-family: SimHei;
+	cursor: pointer;
+}
+.down {
+	background-color: #32353e;
+	height: 362px;
+    margin-top: 167px;
+    position: relative;
+    overflow: hidden;
+    min-width: 1024px;
+}
+.down-content {
+	margin: 0 auto;
+	width: 982px;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+.end {
+	background-color: #303039;
+	height: 58px;
+	position: relative;
+	overflow: hidden;
+	min-width: 1024px;
+}
+.downP1 {
+	margin-top: 90px;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.downP2 {
+	font-size: 12px;
+	line-height: 17px;
+}
+.end-content {
+	width: 982px;
+	margin: 0 auto;
+	position: relative;
+}
+.end-content a {
+	float: right;
+	line-height: 58px;
+	color: #fff;
+}
+.end-content span {
+	font-size: 12px;
+	color: #fff;
+	line-height: 58px;
+}
+.down-content input {
+	height: 42px;
+	width: 432px;
+	margin: 0;
+	font-size: 16px;
+	padding-left: 5px;
+	margin-top: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.send {
+	height: 42px;
+	width: 80px;
+	background-color: #6f7278;
+	line-height: 42px;
+	color: #fff;
+	display: inline-block;
+	margin-left: -10px;
+}
+.downImg {
+	margin-top: 35px;
+}
+.downImg img {
+	margin-right: 20px;
+}
